@@ -1,0 +1,61 @@
+h1,h3 {
+    margin:auto;
+    width:auto;
+    height:auto;
+    text-align:center;
+    color: lightgreen;
+}
+body {
+    background-color:black;
+}
+video {
+    margin:auto;
+    margin-left:28%;
+    width:45%;
+    height:35%;
+    border-style: solid;
+    border-color:lightgreen;
+    border-radius: 5px;
+}
+audio {
+    margin:auto;
+    margin-left: 28%;
+    width: 45%;
+    border-style: solid;
+    border-color:lightgreen;
+    border-radius: 5px;
+}
+iframe {
+    margin:auto;
+    margin-left: 28%;
+    border-style: solid;
+    border-color:lightgreen;
+    border-radius: 5px;
+}
+canvas {
+    margin:0 42.5% 0 42.5%;
+    background-color:gray;
+    width:15%;
+    border-radius: 5px;
+}
+#svgRect {
+    margin-left:44%;
+}
+.svgSetup {
+    margin:auto;
+    margin-right: auto;
+    width: auto;
+    height: auto;
+}
+#svgCirc {
+    margin-left:47%;
+}
+#svgElli {
+    margin-left:44%;
+}
+#svgLine {
+    margin-left:45%;
+}
+#svgPoly {
+    margin-left:45%;
+}

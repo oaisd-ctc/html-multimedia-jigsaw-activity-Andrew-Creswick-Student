@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>HTML Multimeda</title>
+        <link rel="stylesheet" href="styles/styles.css">
+    </head>
+    <body>
+        <h1>HTML Multimedia Demonstration</h1>
+        <h3>Video Element</h3>
+        <video controls>
+            <source src="videos/Raindrops_Videvo.mp4" type="video/mp4">
+            Your browser does not support video tags.
+        </video>
+        <h3>Audio Element</h3>
+        <audio controls>
+            <source src="audio/mixaund-feel.mp3" type="audio/mp3">
+            Your browser does not support the audio tag.
+        </audio>
+        <h3>Inline Frame Element</h3>
+        <iframe src="https://example.com/" height="400" width="850">
+        </iframe>
+        <h3>Canvas Element</h3>
+        <canvas id="myCanvas"></canvas>
+        <script src="javascript/canvasFiller.js"></script>
+        <h3>SVG Element</h3>
+        <svg class="svgSetup" id="svgCirc">
+            <circle cx="50" cy="50" r="40" stroke="#000000" fill="#FF0000"></circle>
+        </svg>
+        <br>
+        <svg class="svgSetup" id="svgRect">
+            <rect width="200" height="100" style="fill: #008080; stroke-width:3; stroke: #000000"></rect>
+        </svg>
+        <br>
+        <svg class="svgSetup" id="svgElli">
+            <ellipse cx="110" cy="60" rx="100" ry="50" style="fill:#90EE90;; stroke-width:3"></ellipse>
+        </svg>
+        <br>
+        <svg class="svgSetup" id="svgLine">
+            <line x1="0" y1="0" x2="175" y2="100" style="stroke:gray;stroke-width:2"></line>
+        </svg >
+        <br>
+        <svg class="svgSetup" id="svgPoly">
+            <polygon points="100,30 170,110 30,110" style="fill:#FFFF00"></polygon>
+        </svg>
+    </body>
+</html>
