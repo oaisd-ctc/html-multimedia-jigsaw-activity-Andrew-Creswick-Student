@@ -3,10 +3,10 @@ h1,h3 {
     width:auto;
     height:auto;
     text-align:center;
-    color: lightgreen;
+    color: purple;
 }
 body {
-    background-color:black;
+    background-color:gray;
 }
 video {
     margin:auto;
@@ -29,7 +29,7 @@ iframe {
     margin:auto;
     margin-left: 28%;
     border-style: solid;
-    border-color:lightgreen;
+    border-color:lightblue;
     border-radius: 5px;
 }
 canvas {
